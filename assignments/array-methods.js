@@ -103,7 +103,7 @@ runners.map(runner => {
   return  runner.shirt_size === "3XL" ? largeSize.push(runner.donation  * 3) : runner.donation * 1;
 })
 //console.table(highDonor);
-console.log(largeSize);
+console.log(largeSize);s
 
 // Problem 3
 runners.forEach(runner => {
