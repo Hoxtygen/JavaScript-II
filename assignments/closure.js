@@ -1,7 +1,17 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
 
+function outer() {
+  var b = 160;
+  function inner() {
+       
+        var a = 560; 
+        console.log(a + b);
+   }
+  inner();
+}
 
+outer();
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
 
